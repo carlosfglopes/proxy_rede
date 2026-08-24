@@ -1,0 +1,9 @@
+{
+  "network": "rede-proxy",
+  "deployedAt": "2026-08-07T12:05:45.082Z",
+  "proxy": "0x0aF1B3F6e2B7512ae8E6ad5Ae415D18E1919A0FE",
+  "implementationV1": "0x5cE576A3D9111FC8b1cD6494E01d2c13B9cb230C",
+  "owner": "0xFE3B557E8Fb62b89F4916B721be55cEb828dBd73",
+  "implementationV2": "0x221E45760AC63EB377e1bc4a6659dB1500C761C8",
+  "upgradedAt": "2026-08-07T12:50:18.964Z"
+}

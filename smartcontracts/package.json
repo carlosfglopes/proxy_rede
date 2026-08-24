@@ -1,0 +1,38 @@
+{
+  "name": "proxy-contracts-uav",
+  "version": "1.0.0",
+  "description": "Fase 2 da Dissertação — Proxy Contracts (UUPS) para missões UAV em rede Hyperledger Besu",
+  "scripts": {
+    "compile":          "npx hardhat compile",
+    "test":             "npx hardhat test",
+    "deploy":           "npx hardhat run scripts/deploy_proxy.js --network rede-proxy",
+    "upgrade":          "npx hardhat run scripts/upgrade_proxy.js --network rede-proxy",
+    "simulate:v1":      "npx hardhat run scripts/simulate_v1.js --network rede-proxy",
+    "simulate:v2":      "npx hardhat run scripts/simulate_v2.js --network rede-proxy",
+    "simulate:v1:local":"npx hardhat run scripts/simulate_v1.js --network hardhat",
+    "simulate:v2:local":"npx hardhat run scripts/simulate_v2.js --network hardhat",
+    "reset":            "npx hardhat run scripts/reset_mission.js --network rede-proxy",
+    "reset:v2":         "npx hardhat run scripts/reset_v2.js --network rede-proxy",
+    "deploy:recon":     "npx hardhat run scripts/deploy_recon.js --network rede-proxy",
+    "upgrade:recon":    "npx hardhat run scripts/upgrade_recon.js --network rede-proxy",
+    "simulate:recon:v1":"npx hardhat run scripts/simulate_recon_v1.js --network rede-proxy",
+    "simulate:recon:v2":"npx hardhat run scripts/simulate_recon_v2.js --network rede-proxy",
+    "reset:recon":      "npx hardhat run scripts/reset_recon.js --network rede-proxy",
+    "reset:recon:v2":   "npx hardhat run scripts/reset_recon_v2.js --network rede-proxy",
+    "deploy:formation":     "npx hardhat run scripts/deploy_formation.js --network rede-proxy",
+    "upgrade:formation":    "npx hardhat run scripts/upgrade_formation.js --network rede-proxy",
+    "simulate:formation:v1":"npx hardhat run scripts/simulate_formation_v1.js --network rede-proxy",
+    "simulate:formation:v2":"npx hardhat run scripts/simulate_formation_v2.js --network rede-proxy",
+    "reset:formation":      "npx hardhat run scripts/reset_formation.js --network rede-proxy",
+    "reset:formation:v2":   "npx hardhat run scripts/reset_formation_v2.js --network rede-proxy"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "dotenv": "^16.0.0",
+    "ethers": "^6.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts-upgradeable": "^5.0.0"
+  }
+}

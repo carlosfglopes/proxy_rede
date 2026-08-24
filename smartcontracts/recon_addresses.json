@@ -1,0 +1,18 @@
+{
+  "network": "rede-proxy",
+  "deployedAt": "2026-08-07T11:16:35.120Z",
+  "proxy": "0xECB550dE5c73e6690AB4521C03EC9D476617167E",
+  "implementationV1": "0x96C1f5d31C4c627d6e84A046D4790cAC4F17d3ED",
+  "owner": "0xFE3B557E8Fb62b89F4916B721be55cEb828dBd73",
+  "missionZone": "Zone-Alpha",
+  "params": {
+    "minUAVsForElection": 2,
+    "reportTimeoutSec": 20,
+    "maxReelections": 2,
+    "weightBattery": 60,
+    "weightSpeed": 40
+  },
+  "implementationV2": "0xD26D74781a0Aafca860CB58614C9df02B8b7a5a5",
+  "upgradedAt": "2026-08-07T12:49:53.110Z",
+  "confirmationThreshold": 1
+}

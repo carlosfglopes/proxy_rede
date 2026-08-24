@@ -1,0 +1,21 @@
+# Besu node data
+rede-proxy/nodes/
+rede-proxy/networkFiles/keys/
+
+# Runtime data
+rede-proxy/grafana-data/
+rede-proxy/prometheus-data/
+
+# Hardhat
+smartcontracts/artifacts/
+smartcontracts/cache/
+smartcontracts/node_modules/
+
+# Secrets
+smartcontracts/.env
+
+# Logs
+*.log
+# Python cache
+__pycache__/
+*.pyc

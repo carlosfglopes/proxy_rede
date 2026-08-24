@@ -1,0 +1,21 @@
+{
+  "network": "rede-proxy",
+  "deployedAt": "2026-08-07T11:06:02.823Z",
+  "proxy": "0x4A6EA541263c363478da333239E38E96E2cC8653",
+  "implementationV1": "0x99c6a236913907dCe5714cfa4a179D4f2C0b93D9",
+  "owner": "0xFE3B557E8Fb62b89F4916B721be55cEb828dBd73",
+  "params": {
+    "toleranceWindow": 30,
+    "maxViolations": 2,
+    "degradedThreshold": 2,
+    "transitionTime": 30,
+    "quorum": 2,
+    "formationId": 0,
+    "dMinSq": 4000000,
+    "dMaxSq": 64000000,
+    "rMaxSq": 25000000
+  },
+  "implementationV2": "0x1c9d5865C21329F5A8Fb82415a630F89B1f1AC3B",
+  "upgradedAt": "2026-08-07T12:50:35.165Z",
+  "missionObjective": 3
+}
